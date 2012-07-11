@@ -1,0 +1,33 @@
+---
+abstract: 'HTTP service to notify that an event happened.'
+author:
+  - 'Shlomi Fish <shlomif@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.39
+dynamic_config: 1
+generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921'
+keywords:
+  - notify
+  - notifier
+  - alert
+  - finish
+  - cue
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-Notifier-Service
+provides:
+  App::Notifier::Service:
+    file: lib/App/Notifier/Service.pm
+    version: 0.0100
+requires:
+  Dancer: 1.3097
+  YAML: 0
+resources:
+  homepage: http://www.shlomifish.org/open-source/projects/Notifier/
+  license: http://www.opensource.org/licenses/mit-license.php
+  repository: http://bitbucket.org/shlomif/perl-app-notifier
+version: 0.0100
