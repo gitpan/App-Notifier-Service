@@ -41,7 +41,7 @@
    "provides" : {
       "App::Notifier::Service" : {
          "file" : "lib/App/Notifier/Service.pm",
-         "version" : "0.0100"
+         "version" : "0.0200"
       }
    },
    "release_status" : "stable",
@@ -54,5 +54,5 @@
          "url" : "http://bitbucket.org/shlomif/perl-app-notifier"
       }
    },
-   "version" : "0.0100"
+   "version" : "0.0200"
 }
