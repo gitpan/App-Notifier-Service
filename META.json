@@ -41,18 +41,18 @@
    "provides" : {
       "App::Notifier::Service" : {
          "file" : "lib/App/Notifier/Service.pm",
-         "version" : "0.0200"
+         "version" : "0.0201"
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://www.shlomifish.org/open-source/projects/Notifier/",
+      "homepage" : "http://www.shlomifish.org/open-source/projects/App-Notifier/",
       "license" : [
          "http://www.opensource.org/licenses/mit-license.php"
       ],
       "repository" : {
-         "url" : "http://bitbucket.org/shlomif/perl-app-notifier"
+         "url" : "https://bitbucket.org/shlomif/app-notifier"
       }
    },
-   "version" : "0.0200"
+   "version" : "0.0201"
 }
