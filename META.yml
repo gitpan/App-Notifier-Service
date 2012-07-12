@@ -22,12 +22,16 @@ name: App-Notifier-Service
 provides:
   App::Notifier::Service:
     file: lib/App/Notifier/Service.pm
-    version: 0.0201
+    version: 0.0202
 requires:
   Dancer: 1.3097
+  Errno: 0
+  File::Spec: 0
+  POSIX: 0
   YAML: 0
+  YAML::XS: 0
 resources:
   homepage: http://www.shlomifish.org/open-source/projects/App-Notifier/
   license: http://www.opensource.org/licenses/mit-license.php
   repository: https://bitbucket.org/shlomif/app-notifier
-version: 0.0201
+version: 0.0202

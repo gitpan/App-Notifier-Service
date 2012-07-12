@@ -34,14 +34,18 @@
       "runtime" : {
          "requires" : {
             "Dancer" : "1.3097",
-            "YAML" : "0"
+            "Errno" : "0",
+            "File::Spec" : "0",
+            "POSIX" : "0",
+            "YAML" : "0",
+            "YAML::XS" : "0"
          }
       }
    },
    "provides" : {
       "App::Notifier::Service" : {
          "file" : "lib/App/Notifier/Service.pm",
-         "version" : "0.0201"
+         "version" : "0.0202"
       }
    },
    "release_status" : "stable",
@@ -54,5 +58,5 @@
          "url" : "https://bitbucket.org/shlomif/app-notifier"
       }
    },
-   "version" : "0.0201"
+   "version" : "0.0202"
 }
