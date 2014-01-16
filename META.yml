@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.39
 dynamic_config: 1
-generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
 keywords:
   - notify
   - notifier
@@ -22,16 +22,19 @@ name: App-Notifier-Service
 provides:
   App::Notifier::Service:
     file: lib/App/Notifier/Service.pm
-    version: 0.0202
+    version: 0.0300
 requires:
   Dancer: 1.3097
   Errno: 0
   File::Spec: 0
+  JSON::MaybeXS: 0
+  List::MoreUtils: 0
   POSIX: 0
   YAML: 0
   YAML::XS: 0
+  perl: 5.014
 resources:
   homepage: http://www.shlomifish.org/open-source/projects/App-Notifier/
   license: http://www.opensource.org/licenses/mit-license.php
   repository: https://bitbucket.org/shlomif/app-notifier
-version: 0.0202
+version: 0.0300
