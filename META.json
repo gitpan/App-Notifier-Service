@@ -4,7 +4,7 @@
       "Shlomi Fish <shlomif@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Module::Build version 0.4205",
    "keywords" : [
       "notify",
       "notifier",
@@ -48,7 +48,7 @@
    "provides" : {
       "App::Notifier::Service" : {
          "file" : "lib/App/Notifier/Service.pm",
-         "version" : "0.0301"
+         "version" : "0.0400"
       }
    },
    "release_status" : "stable",
@@ -61,5 +61,5 @@
          "url" : "https://bitbucket.org/shlomif/app-notifier"
       }
    },
-   "version" : "0.0301"
+   "version" : "0.0400"
 }
